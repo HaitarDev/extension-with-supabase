@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Supabase Extension",
+  "version": "1.0",
+  "description": "Basic Chrome extension using Supabase auth",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
